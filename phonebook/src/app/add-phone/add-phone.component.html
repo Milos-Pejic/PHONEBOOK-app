@@ -1,0 +1,18 @@
+
+<form [formGroup]="addPhone" *ngIf="addPhone" (ngSubmit)="collectPhone()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">First name</label>
+      <input type="text" class="form-control" name="first_name" formControlName="first_name" placeholder="first-name">
+      <span *ngIf="addPhone.get('first_name')?.errors && addPhone.get('first_name')?.touched">Greska</span>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Last name</label>
+      <input type="text" class="form-control" name="last_name" formControlName="last_name" placeholder="last_name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Phone</label>
+        <input type="text" class="form-control" name="phone" formControlName="phone" placeholder="phone">
+      </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

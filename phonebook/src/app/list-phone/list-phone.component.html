@@ -1,0 +1,32 @@
+
+<div class="form-group">
+    <label for="">Search</label>
+    <input  [(ngModel)]="inputValue"  type="text"  class="form-control" placeholder="search">
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First name</th>
+            <th scope="col">Last name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of contacts | appFilter: inputValue; let i= index ">
+            <th>{{i+1}}</th>
+            <th>{{item.first_name}}</th>
+            <th>{{item.last_name}}</th>
+            <th>{{item.phone}}</th>
+            <th>
+                <i (click)="deletePhone(item.id, i)" class="fa fa-trash" style="font-size:20px;color:red;"></i>
+                <a routerLink="/update/{{item.id}}">
+                    <i  class="fa fa-edit" style="font-size:20px;color:blue;"></i>
+                </a>
+            
+            </th>
+        </tr>
+    </tbody>
+</table>
