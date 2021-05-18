@@ -13,8 +13,8 @@
 
 ## Funkcionalnosti:
     * Postoji mogucnost dodavanja novog kontakta.
-    * Postoji mogucnost da obrisu kontakt.
-    * Postoji mocucnost da izmene podatke o korisniku.
+    * Postoji mogucnost da se obrise kontakt.
+    * Postoji mocucnost da izmene podatci o korisniku.
 
 ## Koriscene tehnologije:
     * VSCode
