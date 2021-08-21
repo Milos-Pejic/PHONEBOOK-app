@@ -8,9 +8,7 @@ const routes: Routes = [
   {
     component:AddPhoneComponent,
     path:'add'
-    
-  },
-  
+    },
   {
     component:UpdatePhoneComponent,
     path:'update/:id'

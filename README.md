@@ -4,7 +4,7 @@
 ## Upustvo za pokretanje aplikacije:
 
 * Prvo treba da se klonira  Git repozitorijum:
-    * git clone [https://github.com/Milos-Pejic/PHONEBOOK-app.git]
+    * git clone https://github.com/Milos-Pejic/PHONEBOOK-app.git
     * Uci u projekat u root direktorijumu i pokrenuti npm install.
     * Posle toga, npm start da se pokrene aplikacija
 
@@ -13,11 +13,14 @@
 
 ## Funkcionalnosti:
     * Postoji mogucnost dodavanja novog kontakta.
-    * Postoji mogucnost da obrisu kontakt.
-    * Postoji mocucnost da izmene podatke o korisniku.
+    * Postoji mogucnost da se obrise kontakt.
+    * Postoji mocucnost da izmene podatci o korisniku.
 
 ## Koriscene tehnologije:
     * VSCode
     * JavaScript
     * Angular
     * Git
+    * Bootstrap
+    * Html
+    * Css
