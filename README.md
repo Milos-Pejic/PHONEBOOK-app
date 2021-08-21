@@ -21,9 +21,7 @@
     * JavaScript
     * Angular
     * Git
-<<<<<<< HEAD
     * Bootstrap
     * Html
     * Css
-=======
->>>>>>> d9b590b51bb3c0b957bb4c278906090677db7a3b
+
